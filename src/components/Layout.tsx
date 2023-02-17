@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Header";
 import Content from "./Content";
+import Footer from "./Footer";
 
 function Layout() {
   return (
@@ -15,9 +16,7 @@ function Layout() {
           </div>
         </div>
       </div>
-      <footer className="sticky top-[100vh] left-0 w-full h-48 bg-[#323232]  ">
-        {/*  footer  */}
-      </footer>
+    <Footer/>
     </>
   );
 }
